@@ -1,4 +1,4 @@
-# NFAG 
+# NAF CLI 
 A Node API Generating project. It uses MongoDB, Fastify and Swagger.
 
 ## Prerequisites
@@ -18,11 +18,11 @@ A Node API Generating project. It uses MongoDB, Fastify and Swagger.
 `npm link`
 
 #### Scripts
-You can use the `g` command to generate controllers:
+You can use the `naf` command to generate controllers:
 
 ```javascript
 # entering the alias
-g controller
+naf controller
 
 # The system will ask you enter your Controller name, then you can:
 
@@ -47,7 +47,7 @@ You can find all possible blueprints in the table below:
 
 Scaffold  | Usage
 ---       | ---
-[Model]      | `g model`
-[Controller, Route, Schema]      | `g controller`
+[Model]      | `naf model`
+[Controller, Route, Schema]      | `naf controller`
 
 `Note that, Your models always generated in src/models`
